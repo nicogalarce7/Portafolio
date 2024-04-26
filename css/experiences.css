@@ -56,7 +56,7 @@
 @media (min-width:950px) {
     .experiences-body{
         color: var(--text-color-inverse);
-        margin-top: -400px;
+        margin-top: -230px;
     }
     .experience{
         padding: 0;
