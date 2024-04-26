@@ -2,6 +2,7 @@
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
     margin-top: -1px;
+
 }
 .experience{
     padding: 25px;
@@ -11,21 +12,22 @@
 .experiences{
      display: flex;
      flex-direction: column;
+     
 }
 .experiences-title{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 .experiences-date{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     color: black;
 }
 .experiences-company{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
@@ -47,23 +49,26 @@
 .wave-bottom{
     transform: scaleY(-1);
 
+
+
 }
 
 @media (min-width:950px) {
     .experiences-body{
         color: var(--text-color-inverse);
-        margin-top: -200px;
+        margin-top: -400px;
     }
     .experience{
         padding: 0;
         max-width: 500px;
         margin: 0 auto;
-
+        
     }
     .experiences{
          display: flex;
          flex-direction: column;
          margin: 0 auto;
+         gap: 10px;
     }
     .experiences-title{
         font-size: 50px;

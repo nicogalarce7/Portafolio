@@ -1,16 +1,15 @@
 .title{
 text-align: center;
 }
-.title-project{
-    
-}
-.projects-all{
+
+.projects-body{
     width: 100%;
-    max-width: 980px;
-    margin: auto;
+
 }
 
-
+.projects{
+    margin-top: -50px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
@@ -23,7 +22,7 @@ text-align: center;
 .card-container {
     width: 100%;
     max-width: 400px;
-    margin: 2em auto;
+    margin: 1em auto;
     background-color: var(--primary-color);
     border-radius: 15px;
     margin-bottom: 1rem;
@@ -33,6 +32,7 @@ text-align: center;
 
 .flex-row {
     display: flex;
+    justify-content: center;
 gap: 10%;
 }
 
@@ -43,4 +43,18 @@ gap: 10%;
 
 .main-content p{
     font-size: 1.2em;
+}
+@media (min-width:980px) {
+    .projects-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    .projects-all{
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+    }
+    
 }
