@@ -52,7 +52,7 @@
 @media (min-width:950px) {
     .experiences-body{
         color: var(--text-color-inverse);
-        margin-top: -230px;
+        margin-top: -200px;
     }
     .experience{
         padding: 0;
@@ -70,7 +70,7 @@
         margin: 0 auto ;
     }
     .experiences-date{
-        font-size: 10px; 
+        font-size: 20px; 
     }
     .experiences-company{
         font-size: 25px;
