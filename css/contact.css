@@ -1,4 +1,4 @@
-.contact-body{
+.contact{
     background-color: var(--primary-color);
     font-size: 18px;
     border-radius: 14px;
@@ -8,9 +8,9 @@
     margin: 5px;
 }
 
-.contact-body p,
-.contact-body h1, 
-.contact-body ul{
+.contact p,
+.contact h1, 
+.contact ul{
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@
     background-color: black;
     border-radius: 7px;
     color: white;
-    border: 1px solid white;
+    border: 0.5px solid white;
     cursor: pointer;
 }
 .contact-form-submit:hover{
@@ -71,10 +71,10 @@
 }
 
 @media (min-width: 950px) {
-    .contact-body{
+    .contact{
         margin:0 auto;
         margin-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 100px;
         max-width: 980px;
     }
     .title-label{
@@ -95,7 +95,7 @@
     .social{
         grid-area: social;
     }
-    .contact-body{
+    .contact{
         display: grid;
         grid: 
         "title form"
